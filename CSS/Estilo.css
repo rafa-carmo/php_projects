@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body {
+	font-family:
+		  system-ui,
+		  -apple-system, /* Firefox supports this but not yet `system-ui` */
+		  'Segoe UI',
+		  Roboto,
+		  Helvetica,
+		  Arial,
+		  sans-serif,
+		  'Apple Color Emoji',
+		  'Segoe UI Emoji';
+  }
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;	
+}
+
+
+
+.text-input
+
+{
+  
+  width: 300px;
+
+}
+
+#header {
+	display: flex;
+	justify-content: center;
+	background-color: #004;
+	width: 100%;
+}
+
+#menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width:100%;
+	
+
+}
+
+.menu-user{
+	width: 160px;
+	display: flex;
+	flex-direction: row;
+	font-size: 15px;	
+	align-items: center;
+	justify-content: center;
+
+}
+.menu-user {
+	color: #fff;
+}
+.menu-user a {
+	width:120px;
+	padding-left: 10px;
+	margin-right: 20px;
+	
+	color: #fff;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	
+}
+.menu-user a	 {
+	width:120px;
+	padding-left: 10px;
+	margin-right: 20px;
+	
+	color: #fff;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	
+}
+
+
+
+/* FORMATAÇÃO DO ID OB_MENU:; */
+#Ob_Menu
+
+{
+
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+/* FORMATAÇÃO DO A: */
+.menu-content a {
+	
+	text-decoration: none;
+	background-color: #004;
+	color: #fff; 
+	padding: 0px;
+	margin: 0px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 200px;
+	height: 40px;
+	font-size: 18px;
+
+}
+
+.menu-content a:hover
+
+{
+
+	background-color: #44b;
+
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	right:20px;
+  }
+
+  
+.dropdown span{
+	cursor: pointer;
+}
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	right: 0;
+	background-color: #f9f9f9;
+	min-width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+	padding: 12px 16px;
+	z-index: 1;
+	color:black;
+
+  }
+  .dropdown-content a{
+	  min-width: 150px;
+	  color:black;
+	  margin-bottom: 10px;
+
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+	
+  }

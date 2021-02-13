@@ -1,0 +1,105 @@
+#container {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#detalhes {
+    min-width: 90%;
+
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    
+    
+
+}
+
+#top-atividades {
+    display:flex;
+    flex-direction: column;
+}
+
+
+#atividades-container {
+    min-width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+#atividades-container ul {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    border: solid 1px black;
+
+    
+    
+}
+
+#atividades-container ul li {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    border-bottom: 1px solid black;
+}
+
+.atividade {
+    min-width: 25%;
+    max-width: 40%;
+    border-right: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    
+}
+.observacao{
+    min-width: 30%;
+    max-width: 60%;
+    text-align: center;
+    border-right: 1px solid black;
+    background-color: #F0F0f9;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+.status {
+    min-width: 20%;
+    max-width: 80%;
+    text-align: center;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+
+#atividades-container b {
+    font-size: 20px;
+    margin-top:20px;
+}
+
+.dataPrev {
+    min-width: 25%;
+    border-right: 1px solid black;
+}
