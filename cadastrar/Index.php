@@ -41,7 +41,7 @@ include("../database/require.php");
 
 		
 
-		<input type="submit" value="Cadastrar Projeto">
+		<button type="submit"> Cadastrar Projeto</button>
 
 	</form>
 </center>
