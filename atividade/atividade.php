@@ -4,7 +4,7 @@
     if (!isset($_GET['id'])){
         header('location: ../listar');
     }
-    $id = $_GET['id'];
+    $id_projeto = $_GET['id'];
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +26,7 @@
 <form action="criarAtividade.php" method="post">
 <b>Nome da atividade</b>
 <input type="text" name="Nome_Ativ" placeholder="Nome da Atividade">
-<input type="hidden" name="FK_Id_Projeto" value="<?php echo $id;?>">
+<input type="hidden" name="FK_Id_Projeto" value="<?php echo $id_projeto;?>">
 <b>Data prevista para terminar</b>
 <input type="date" name="dtConcPrev">
 <b>Descrição da atividade</b>

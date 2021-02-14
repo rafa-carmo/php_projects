@@ -32,8 +32,10 @@ else
 
 {
 
-	header("location: ..\Cadastrar");
+	header("location: ..\detalhe\?id=$FK_Id_Projeto");
 }	
+
+
 
 
 ?>

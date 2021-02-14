@@ -112,7 +112,7 @@ $atividades = $conn -> query($Result_TbAtividade);
                     echo '<li>';
 
                         echo " <div class='atividade'>".$atividade['Nome_Ativ']."</div>";
-                        echo "<div class='observacao'> Observações </div>";
+                        echo "<div class='observacao'>".$atividade['descricao']. "</div>";
                         echo " <div class='responsavel'>$nomeResponsavel</div>";
                         echo '<div class="status">';
                         if($idResponsavelAtividade == $_SESSION['id']){

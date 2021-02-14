@@ -21,7 +21,9 @@
 #top-atividades {
     display:flex;
     flex-direction: column;
+
 }
+
 
 
 #atividades-container {
