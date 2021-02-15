@@ -8,4 +8,4 @@ $dotenv->load();
 
 
 
-$home = 'http://127.0.0.1/php_projects';
+$home =  $_ENV['HOMEDIR'];
